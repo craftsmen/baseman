@@ -1,28 +1,25 @@
 # Middleman
 
-A Middleman template with our standard defaults.
+A Middleman template with my standard defaults.
 
 ## Getting Started
 
-Set up your project in your code directory
+Start your new project by using this Middleman custom project template
+
 ```
-git clone https://github.com/craftsmen/middleman-starter.git your-project-folder
-cd your-project-folder
-git remote rm origin
-git remote add origin your-git-url
+middleman init YOUR_PROJECT_FOLDER -T mehlah/baseman
 ```
 
-Install dependencies:
-```
-bundle install
 ```
 
 Run the server
+
 ```
 bundle exec middleman
 ```
 
 Deploy to GitHub Pages
+
 ```
 bundle exec middleman deploy
 ```
